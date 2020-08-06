@@ -1,0 +1,127 @@
+body {
+  background: #fdeecf;
+  font-family: "KANJI",'Oswald';
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden; 
+  overflow-y:scroll; 
+}
+@font-face {
+	font-family: "KANJI";
+	src: url('IN-KANJI.ttf');
+}
+h1 {
+    text-align: center; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5em;
+    position: relative;
+    z-index: 20;
+}
+h2 {
+    text-align: center; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    position: relative;
+    z-index: 20;
+}
+.parallax-container {
+  text-align: center;
+  top: 5em;
+  padding-bottom: 20em;
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+}
+.parallax-layer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+  .layer-20 {
+    top: 5em;
+    z-index: 14;
+    background-color: url('Calque vide coins.png');
+  }
+  .layer-0 {
+    top: 5em;
+    z-index: 14;
+    background-image: url('CadreVague 1.png');
+  }
+  .layer-1 {
+    top: 5em;
+    z-index: 11;
+    background-image: url('Cartouche bas.png');
+  }
+  .layer-2 {
+    top: 5em;
+    z-index: 11;
+    background-image: url('Cartouche haut.png');
+  }
+  .layer-3 {
+    top: 5em;
+    z-index: 9;
+    background-image: url('Vague 2-2 avant.png.png');
+  }
+  .layer-4 {
+    top: 5em;
+    z-index: 8;
+    background-image: url('Rocher 3.png');
+  }
+  .layer-12 {
+    top: 5em;
+    z-index: 7;
+    background-image: url('vague 2-2 arriere.png.png');      
+  }
+  .layer-5 {
+    top: 5em;
+    z-index: 7;
+    background-image: url('Falaise 4.png');
+  }
+  .layer-6 {
+    top: 5em;
+    z-index: 6;
+    background-image: url('Vagues 5.png');
+  }
+  .layer-7 {
+    top: 5em;
+    z-index: 5;
+    background-image: url('Bateaux 6.png');
+  }
+  .layer-8 {
+    top: 5em;
+    z-index: 4;
+    background-image: url('Lac Montagnes 7.png');
+  }
+  .layer-9 {
+    top: 5em;
+    z-index: 3;
+    background-image: url('Mont Fuji 8.png');
+  }
+  .layer-10 {
+    top: 5em;
+    z-index: 3;
+    background-image: url('Oiseaux 9.png');
+  }
+  .layer-11 {
+    top: 5em;
+    z-index: 1;
+    background-image: url('Ciel nuit-11.png');
+  }
+  .layer-12 {
+    top: 5em;
+    z-index: 2;
+    background-image: url('Ciel 10-2.png');
+  }
+
+
+.fixed-ratio-resize { /* basic responsive img */
+	max-width: 90%;
+	height: auto;
+  }   
