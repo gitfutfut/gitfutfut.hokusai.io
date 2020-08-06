@@ -1,6 +1,7 @@
 body {
   background: #fdeecf;
-  font-family: "KANJI",'Oswald';
+  font-family: "KANJI";
+  src: url('IN-KANJI.ttf');
   margin:0px;
   padding:0px;
   overflow-x:hidden; 
